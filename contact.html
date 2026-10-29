@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#080808" />
+    <title>Contact | Fully Printed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+    
+</head>
+
+<body>
+    <div class="topbar">
+        <span>Premium Custom Printing & Apparel</span>
+        <div class="top-right">
+            <span>Karachi, Pakistan</span><a href="tel:+923232198066">+92 323 2198066</a>
+        </div>
+    </div>
+    <header class="header">
+        <a class="brand image-brand" href="index.html"><img src="assets/fully-printed-logo.png"
+                alt="Fully Printed logo" /></a>
+        <button class="menu" id="menu">☰</button>
+        <nav class="nav" id="nav">
+            <a class="" href="index.html">Home</a>
+            <a class="" href="products.html">Products</a>
+            <a class="" href="services.html">Services</a>
+            <a class="" href="how-it-works.html">How It Works</a>
+            <a class="" href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a class="nav-cta" href="customize.html">Customize Now</a>
+        </nav>
+    </header>
+    <section class="page-hero">
+        <div class="page-hero-inner">
+            <p class="eyebrow">CONTACT US</p>
+            <h1>Let's talk about<br /><span>your next project.</span></h1>
+            <p>
+                Tell us what you want to print. We'll help you choose the right
+                product, material and printing method.
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="form-section">
+            <div class="form-copy">
+                <p class="eyebrow">GET A QUOTE</p>
+                <h2>Let's make your idea <span>printable.</span></h2>
+                <p>
+                    Send your requirements using the form. For urgent orders, contact us
+                    directly on phone or WhatsApp.
+                </p>
+                <div class="values">
+                    <div class="value">
+                        <b>PHONE</b><span><strong>+92 323 2198066</strong>Mon–Sat, 10:00 AM – 7:00
+                            PM</span>
+                    </div>
+                    <div class="value">
+                        <b>EMAIL</b><span><strong>info@fullyprinted.com</strong>General inquiries and
+                            quotes</span>
+                    </div>
+                    <div class="value">
+                        <b>LOCATION</b><span><strong>Karachi, Pakistan</strong>Serving local and
+                            international business requirements.</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" onsubmit="sendEmail(event)">
+                <div class="row">
+                    <input id="name" placeholder="Your name" required />
+                    <input id="phone" placeholder="Phone / WhatsApp" required />
+                </div>
+                <div class="row">
+                    <input id="email" type="email" placeholder="Email address" required /><select>
+                        <option>Custom Apparel</option>
+                        <option>Teamwear</option>
+                        <option>Corporate Uniforms</option>
+                        <option>Promotional Products</option>
+                        <option>Packaging</option>
+                    </select>
+                </div>
+                <input id="company" placeholder="Company / Organization" /><textarea rows="6"
+                    placeholder="Tell us about your product, quantity, sizes, design and deadline..."
+                    required></textarea><button class="btn btn-gold">Send Request</button><small
+                    id="formMessage"></small>
+            </form>
+        </div>
+    </section>
+    <section class="cta">
+        <div>
+            <h2>Prefer WhatsApp?</h2>
+            <p>Start a conversation directly with our sales team.</p>
+        </div>
+        <a class="btn btn-dark" href="https://wa.me/923232198066" target="_blank">Chat on WhatsApp →</a>
+    </section>
+    <footer class="footer">
+        <div>
+            <a class="brand image-brand" href="index.html"><img src="assets/fully-printed-logo.png"
+                    alt="Fully Printed logo" /></a>
+            <p>
+                Premium printing, custom apparel and branding solutions for
+                businesses, teams and brands.
+            </p>
+        </div>
+        <div class="footer-links">
+            <h4>Explore</h4>
+            <a href="products.html">Products</a><a href="services.html">Services</a><a href="how-it-works.html">How It
+                Works</a><a href="about.html">About Us</a>
+        </div>
+        <div class="footer-links">
+            <h4>Contact</h4>
+            <a href="tel:+923232198066">+92 323 2198066</a><a
+                href="mailto:info@fullyprinted.com">info@fullyprinted.com</a><span>Karachi, Pakistan</span>
+        </div>
+        <div class="bottom">
+            <span>© 2026 Fully Printed. All rights reserved.</span><span>PRINTING • PROMOTIONAL PRODUCTS • BRANDING
+                SOLUTIONS</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
